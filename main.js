@@ -41,5 +41,7 @@ let user = {
     }
 }
 for(let key in user){
-console.log(user[key]);
+console.log(key);
+console.log(user[key].name);
+console.log(user[key].age);
 }
